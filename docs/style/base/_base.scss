@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-family;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  
+}
+body {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.text-color-purple{
+  color : $purple_color;
+}
+.btn-bg-purple{
+  background-color:#970984;
+   color:#ffffff;
+}
+iframe {
+  border-bottom: 20px solid $dark-grey;
+  text-align:"center";
+}
+ul{
+  padding-left: 0rem; 
+}
+.center-title-synthese{
+  font-size: 5.6rem;
+  font-weight: 700;
+  margin-bottom: 3.2rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+.card-veille_pres{
+  width: 100%;
+  text-align: justify;
+  border: lightslategray 1px solid;
+  margin-bottom: 1em;
+}
+.card-veille{
+  width: 20em;
+  height: 17em;
+  text-align: center;
+  border: #751869 1px solid;
+  margin-bottom: 1em;
+}
+.btn-card-veille{
+ 
+  width: 100%;
+  font-size: 1.5em;
+}
+
+
+
+.card-par{
+  width: 50rem;
+  max-height: fit-content;
+  text-align: center;
+}
+
+.card-img-top{
+  display: block;
+  margin : auto;
+  width: 80%;
+ 
+}
+.card-footer{
+  margin-top: 2em;
+}
+
+.card-title{
+  padding-top: 1em;
+  font-weight:bold; 
+  font-size : 1.5em; 
+  color:  $purple_color;
+}
+.card-text-des{
+  height: fit-content;
+
+}
+.card-text-cadr-{
+  height: fit-content;
+
+}
+.card-text-tech{
+  font-size : 1.2em;
+
+  font-weight: bold;
+}
+.card-text-comp{
+  
+  font-size : 1.2em;
+  text-align: left;
+}
+.accordion-button{
+  font-size: 0.7em;
+ 
+}
+
+li{
+  font-size:1.5em;
+  text-align: left;
+}
+
+.cardlin1{
+  list-style: none;
+  font-weight: bold;
+}
+.cardlin2{
+list-style: none;
+  margin-left: 2em;
+}
+
+ul .cardlin2::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #00b09b; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -2em; /* Also needed for space (tweak if needed) */
+}
+
+.card-grad {
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .card-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
